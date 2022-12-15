@@ -11,4 +11,4 @@ const object = {
   ]
 }
 
-deepGet(object, 'sons[1].grandsons[0].name')
+console.log(deepGet(object, 'sons[1].grandsons[0].name'))
